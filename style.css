@@ -147,3 +147,60 @@ img {
     text-align: end;
 }
 
+/* CALL TO ACTION*/
+.call-to-action-section {
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-div {
+    background-color:#3882f6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+}
+
+.call-to-action-left {
+    width: 80%;
+    margin-left: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+}
+
+.call-to-action-left > p {
+    color: white;
+    font-size: 18px;   
+}
+
+
+.call-to-action-right {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.call-to-action-right > button {
+    background-color: #3882F6;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 50px;
+}
